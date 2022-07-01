@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@100;300&display=swap');
+
+/* General*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/texturamadera.jpg);
+    background-attachment: fixed;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cierra general*/
+/* Nav */
+nav{
+background-color: rgba(255, 251, 251, 0.685);
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li a {
+color: rgb(0, 0, 0);
+padding: 16px;
+margin: 15px;
+font-size: 2.2rem;
+font-family: 'Roboto', sans-serif;
+}
+
+li a:hover {
+background-color: rgb(252, 21, 21);
+}
+/* cierra nav*/
+
+/* footer*/
+footer h1{
+    color: white;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+footer svg{
+color: white;
+}
+
+.futer{
+    background-color: #333333;
+    padding: 82px;
+} 
+/* Cierra footer*/
+
+/* section*/
+section{
+    background-color: white;
+}
+
+.fondito{
+    background-color: rgb(241, 8, 27);
+    padding: 30px;
+    font-size: 55px;
+    color: black;
+}
+.caja1{
+    padding-top: 10%;
+font-size: 30px;
+color: #f10c0c;
+}
+article p{
+    color: black;
+}
+
+.Agrandar{
+    font-size: 3.1rem;
+    color: #f10c0c;
+    font-family: 'Roboto', sans-serif; 
+}
+/* Cierra section*/
+
+/* Ubicacion*/
+.retocar{
+    font-size: 30px;
+    color: #111111;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    background-color: white;
+
+}
+.mapa{
+    background-color: white;
+}
+/* Cierra Ubicacion*/
