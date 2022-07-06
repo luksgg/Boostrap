@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&family=Roboto:wght@100;300&display=swap');
 
 /* General*/
 *{
@@ -10,16 +10,17 @@ body{
     background-image: url(../img/texturamadera.jpg);
     background-attachment: fixed;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 /* Cierra general*/
+
 /* Nav */
 nav{
 background-color: rgba(255, 251, 251, 0.685);
@@ -30,37 +31,21 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
+margin-right: 60px;
 }
 
-li a {
-color: rgb(0, 0, 0);
+li a{
 padding: 16px;
 margin: 15px;
-font-size: 2.2rem;
-font-family: 'Roboto', sans-serif;
+font-size: 1.4rem;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
 }
 
-li a:hover {
-background-color: rgb(252, 21, 21);
+li a:hover{
+    background-color: grey;
 }
 /* cierra nav*/
-
-/* footer*/
-footer h1{
-    color: white;
-    width: auto;
-    height: auto;
-    padding-bottom: 20px;
-}
-footer svg{
-color: white;
-}
-
-.futer{
-    background-color: #333333;
-    padding: 82px;
-} 
-/* Cierra footer*/
 
 /* section*/
 section{
@@ -68,25 +53,58 @@ section{
 }
 
 .fondito{
-    background-color: rgb(241, 8, 27);
+    background-color: rgb(90, 35, 3);
     padding: 30px;
     font-size: 55px;
-    color: black;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10%;
 }
+
+
+.separar{
+    margin-bottom: 10%;
+}
+
 .caja1{
     padding-top: 10%;
 font-size: 30px;
 color: #f10c0c;
 }
+
+.imagen{
+    border-radius: 50%;
+}
+
+.imagen:hover{
+    transform: scale(1.1);
+}
+
 article p{
     color: black;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.aclarar:hover{
+opacity: 0.5;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
 }
 
 .Agrandar{
     font-size: 3.1rem;
     color: #f10c0c;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
+
+.img-thumbnail:hover{
+    transform: scaleX(-1);
+}
+
 /* Cierra section*/
 
 /* Ubicacion*/
@@ -104,6 +122,20 @@ article p{
 }
 /* Cierra Ubicacion*/
 
-/* Carrusel*/
+/* footer*/
+footer h1{
+    color: white;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
 
-/* Cierra Carrusel*/
+footer svg{
+color: white;
+}
+
+.futer{
+    background-color: #333333;
+    padding: 82px;
+} 
+/* Cierra footer*/

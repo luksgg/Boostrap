@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- mi CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <title>Panaderia Confiteria</title>
+    <title>Panaderia - Confiteria</title>
     <link rel="shortcut icon" href="../img/logito.png">
   </head>
   <body>
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-          <img src="../img/logo.png" alt="Logo" width="150" height="150">
+          <img src="../img/logo2.png" alt="Logo" width="150" height="150">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Contacto.html">Contacto</a>
+              <a class="nav-link" href="../index.html#Nosotros">NOSOTROS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Ubicacion">Ubicación</a>
+              <a class="nav-link" href="../index.html#Productos">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contacto.html#Contacto">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Ubicacion">UBICACIÓN</a>
             </li>
           </ul>
         </div>
@@ -41,9 +47,10 @@
   <!-- Contacto -->
 <section class="py-3">
   <div class="conteiner-fluid">
-    <h1 class="text-center fondito">Contacto</h1>
-    <div class="row">
+    <h1 class="text-center fondito" id="Contacto">Contacto</h1>
+    <div class="row separar">
       <article class="col-sm-12 col-md-12 col-lg-8">
+        <!-- Form -->
         <form>
           <div class="mb-3 ps-3 pe-5">
             <label for="exampleInputEmail1" class="form-label">Email</label>
@@ -68,13 +75,15 @@
         <img src="../img/local.png" alt="Imagen del local" class="w-100 img-thumbnail">
       </article>
     </div>
+  </div>
     <!-- Cierra Contacto -->
 
     <!-- Ubicacion -->
+    <div class="conteiner-fluid">
     <h1 class="text-center fondito" id="Ubicacion">Ubicación</h1>
     <article class="col-sm-12 col-md-6 col-lg-12">
-    <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6 text-center retocar"><h4>Estamos ubicados en Moron, en la zona centro a 2 cuadras de la estacion. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis labore sed, eos ab consequatur sunt laudantium fuga dolores alias ea sit nam quia excepturi doloremque, dicta sapiente repellendus? Reprehenderit, impedit.</h4>
+    <div class="row separar">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-center retocar"><p>Estamos ubicados en Moron, en la zona centro a 2 cuadras de la estacion. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis labore sed, eos ab consequatur sunt laudantium fuga dolores alias ea sit nam quia excepturi doloremque, dicta sapiente repellendus? Reprehenderit, impedit.</p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 text-center mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.181518963068!2d-58.62287728488424!3d-34.6501184804475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc760db6c9f47%3A0xb45434774b575e68!2sAlmte.%20Guillermo%20Brown%20871%2C%20Mor%C3%B3n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653880487553!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -84,6 +93,7 @@
 </section>
 <!-- Cierra Ubicacion -->
 </main>
+
 <!-- Footer-->
 <footer class="futer">
   <h1>Seguinos en nuestras redes</h1>
@@ -104,6 +114,7 @@
 </a>
 </footer>
 <!-- Cierra Footer -->
+
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
