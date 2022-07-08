@@ -1,0 +1,22 @@
+/* Nav */
+nav{
+background-color: $navColor;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin-right: 60px;
+        li a{
+            padding: 16px;
+            margin: 15px;
+            font-size: $textMd;
+            font-family: $mainFont;
+            font-weight: 500;
+            &:hover{
+                background-color: $grey;
+            }
+        }
+    }
+}
+/* cierra nav*/

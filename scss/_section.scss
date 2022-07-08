@@ -1,0 +1,59 @@
+
+/* section*/
+section{
+    background-color: $mainColor;
+    article p{
+        color: $black;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+}
+
+.fondito{
+    background-color: $secondaryColor;
+    padding: 30px;
+    font-size: $textTitle;
+    color: $mainColor;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+
+
+.separar{
+    margin-bottom: 10%;
+}
+
+.caja1{
+    padding-top: 10%;
+font-size: $textMd;
+color: $red;
+}
+
+.imagen{
+    border-radius: 50%;
+}
+
+.imagen:hover{
+    transform: scale(1.1);
+}
+
+.aclarar:hover{
+opacity: 0.5;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.Agrandar{
+    font-size: $textLg;
+    color: $red;
+    font-family: $mainFont;
+}
+
+.img-thumbnail:hover{
+    transform: scaleX(-1);
+}
+
+/* Cierra section*/

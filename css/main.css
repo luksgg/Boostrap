@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&family=Roboto:wght@100;300&display=swap");
+/* Nav */
+nav {
+  background-color: rgba(255, 251, 251, 0.685); }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 60px; }
+    nav ul li a {
+      padding: 16px;
+      margin: 15px;
+      font-size: 1.4em;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500; }
+      nav ul li a:hover {
+        background-color: grey; }
+
+/* cierra nav*/
+/* General*/
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-image: url(../img/texturamadera.jpg);
+  background-attachment: fixed; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Poppins", sans-serif; }
+
+/* Cierra general*/
+/* section*/
+section {
+  background-color: white; }
+  section article p {
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px; }
+
+.fondito {
+  background-color: #5a2303;
+  padding: 30px;
+  font-size: 55px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10%; }
+
+.separar {
+  margin-bottom: 10%; }
+
+.caja1 {
+  padding-top: 10%;
+  font-size: 1.4em;
+  color: #f10c0c; }
+
+.imagen {
+  border-radius: 50%; }
+
+.imagen:hover {
+  transform: scale(1.1); }
+
+.aclarar:hover {
+  opacity: 0.5; }
+
+.zoom:hover {
+  transform: scale(1.1); }
+
+.Agrandar {
+  font-size: 3.1rem;
+  color: #f10c0c;
+  font-family: "Poppins", sans-serif; }
+
+.img-thumbnail:hover {
+  transform: scaleX(-1); }
+
+/* Cierra section*/
+/* Ubicacion*/
+.retocar {
+  font-size: 1.4em;
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+  background-color: white; }
+
+.mapa {
+  background-color: white; }
+
+/* Cierra Ubicacion*/
+/* footer*/
+footer h1 {
+  color: white;
+  width: auto;
+  height: auto;
+  padding-bottom: 20px; }
+
+footer svg {
+  color: white; }
+
+.futer {
+  background-color: #333333;
+  padding: 82px; }
+
+/* Cierra footer*/
