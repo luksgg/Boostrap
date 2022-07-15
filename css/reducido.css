@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&family=Roboto:wght@100;300&display=swap");
 /* Extends*/
-.imagen, .imagen2, .imagen3, .imagen4 {
+ .imagen2, .imagen3, .imagen4 {
   width: "100%";
   height: "100%"; }
 
@@ -36,9 +36,6 @@ body {
   background-attachment: fixed; }
 
 h1,
-h2,
-h3,
-h4,
 h5,
 p {
   font-family: "Poppins", sans-serif; }
@@ -87,21 +84,8 @@ section {
   padding-top: 10%;
   font-size: 1.4em; }
 
-.img-thumbnail:hover {
-  transform: scaleX(-1); }
-
 /* Cierra section*/
 /* Ubicacion*/
-.retocar {
-  font-size: 1.4em;
-  color: black;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  text-align: center;
-  background-color: white; }
-
-.mapa {
-  background-color: white; }
 
 /* Cierra Ubicacion*/
 /* footer*/

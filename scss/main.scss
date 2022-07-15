@@ -1,8 +1,10 @@
 //imports
 @import "_vars";
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import "fonts";
-@import "_navBar";
+@import "_mixins";
 @import "_commons";
+@import "_navBar";
 @import "_section";
 @import "_ubicación";
 @import "_footer";

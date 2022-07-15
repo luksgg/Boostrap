@@ -27,29 +27,6 @@ section{
 .caja1{
     padding-top: 10%;
 font-size: $textMd;
-color: $red;
-}
-
-.imagen{
-    border-radius: 50%;
-}
-
-.imagen:hover{
-    transform: scale(1.1);
-}
-
-.aclarar:hover{
-opacity: 0.5;
-}
-
-.zoom:hover{
-    transform: scale(1.1);
-}
-
-.Agrandar{
-    font-size: $textLg;
-    color: $red;
-    font-family: $mainFont;
 }
 
 .img-thumbnail:hover{

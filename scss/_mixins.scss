@@ -1,0 +1,46 @@
+//extends
+/* Extends*/
+.imagen{
+    width:$width; 
+    height:$height;
+}
+
+.imagen2{
+    @extend .imagen;
+    border-radius: 50%;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.imagen3{
+    @extend .imagen;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+
+.imagen4{
+    @extend .imagen3;
+    &:hover{
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+}
+/* Cierra Extends*/
+
+//mixins
+/* Mixins*/
+@mixin texto($size,$color,$family) {
+    font-size: $size;
+    color: $color;
+    font-family: $family;
+}
+.Agrandar{
+    @include texto($textLg, $red, $mainFont)
+}
+/* Cierra mixins*/
+
+//maps
+/* Maps*/
+/* Cierra Maps*/
