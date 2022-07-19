@@ -19,6 +19,10 @@ section{
     margin-bottom: 10%;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3);
+}
 
 .separar{
     margin-bottom: 10%;
@@ -27,10 +31,19 @@ section{
 .caja1{
     padding-top: 10%;
 font-size: $textMd;
+margin-bottom: 10%;
 }
 
 .img-thumbnail:hover{
     transform: scaleX(-1);
 }
+.boton{
+    background-color: $boton;
+    margin-top: 2%;
+    font-family: $mainFont;
+}
 
+.margi{
+    margin-top: 10%;
+}
 /* Cierra section*/

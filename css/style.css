@@ -1,15 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&family=Roboto:wght@100;300&display=swap");
+/* Extends*/
+.imagen, .imagen2, .imagen3, .imagen4 {
+  width: "100%";
+  height: "100%"; }
 
+.imagen2 {
+  border-radius: 50%; }
+  .imagen2:hover {
+    transform: scale(1.1); }
+
+.imagen3:hover, .imagen4:hover {
+  opacity: 0.5; }
+
+.imagen4:hover {
+  opacity: 0.5;
+  transform: scale(1.1); }
+
+/* Cierra Extends*/
+/* Mixins*/
+.Agrandar {
+  font-size: 3.1rem;
+  color: #f10c0c;
+  font-family: "Poppins", sans-serif; 
+margin-top: 5%;
+}
+  
+
+/* Cierra mixins*/
+/* Maps*/
+/* Cierra Maps*/
 /* General*/
-*{
-    padding: 0;
-    margin: 0;
-}
+* {
+  padding: 0;
+  margin: 0; }
 
-body{
-    background-image: url(../img/texturamadera.jpg);
-    background-attachment: fixed;
-}
+body {
+  background-image: url(../img/texturamadera.jpg);
+  background-attachment: fixed; }
 
 h1,
 h2,
@@ -17,125 +44,103 @@ h3,
 h4,
 h5,
 p{
-    font-family: 'Poppins', sans-serif;
-}
+  font-family: "Poppins", sans-serif; }
+
 /* Cierra general*/
-
 /* Nav */
-nav{
-background-color: rgba(255, 251, 251, 0.685);
-}
+nav {
+  background-color: rgba(255, 251, 251, 0.685); }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 60px; }
+    nav ul li a {
+      padding: 16px;
+      margin: 15px;
+      font-size: 1.4em;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500; }
+      nav ul li a:hover {
+        background-color: grey; }
 
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-margin-right: 60px;
-}
-
-li a{
-padding: 16px;
-margin: 15px;
-font-size: 1.4rem;
-font-family: 'Poppins', sans-serif;
-font-weight: 500;
-}
-
-li a:hover{
-    background-color: grey;
-}
 /* cierra nav*/
-
 /* section*/
-section{
-    background-color: white;
-}
-
-.fondito{
-    background-color: rgb(90, 35, 3);
-    padding: 30px;
-    font-size: 55px;
-    color: white;
-    font-weight: 500;
-    margin-bottom: 10%;
-}
-
-
-.separar{
-    margin-bottom: 10%;
-}
-
-.caja1{
-    padding-top: 10%;
-font-size: 30px;
-color: #f10c0c;
-}
-
-.imagen{
-    border-radius: 50%;
-}
-
-.imagen:hover{
-    transform: scale(1.1);
-}
-
-article p{
+section {
+  background-color: white; }
+  section article p {
     color: black;
     margin-bottom: 10px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; }
+
+.fondito {
+  background-color: #5a2303;
+  padding: 30px;
+  font-size: 55px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10%; }
+
+.separar {
+  margin-bottom: 10%; }
+
+.caja1 {
+  padding-top: 10%;
+  font-size: 1.4em; 
+  margin-bottom: 10%;
 }
 
-.aclarar:hover{
-opacity: 0.5;
+.caja2{
+  margin-bottom: 1%;
+  font-size: 1.4em;
 }
+.img-thumbnail:hover {
+  transform: scaleX(-1); }
 
-.zoom:hover{
-    transform: scale(1.1);
+.boton{
+  background-color: rgba(228, 140, 154, 0.993);
+  margin-top: 2%;
+  font-family: "Poppins", sans-serif;
 }
-
-.Agrandar{
-    font-size: 3.1rem;
-    color: #f10c0c;
-    font-family: 'Poppins', sans-serif;
+.margi{
+  margin-top: 10%;
 }
-
-.img-thumbnail:hover{
-    transform: scaleX(-1);
-}
-
 /* Cierra section*/
-
 /* Ubicacion*/
-.retocar{
-    font-size: 1.4em;
-    color: black;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    text-align: center;
-    background-color: white;
+.retocar {
+  font-size: 1.4em;
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+  background-color: white; }
 
-}
-.mapa{
-    background-color: white;
-}
+.mapa {
+  background-color: white; }
+
 /* Cierra Ubicacion*/
-
 /* footer*/
-footer h1{
-    color: white;
-    width: auto;
-    height: auto;
-    padding-bottom: 20px;
+footer h1 {
+  color: white;
+  width: auto;
+  height: auto;
+  padding-bottom: 20px; }
+
+footer svg {
+  color: white; }
+
+.futer {
+  background-color: #333333;
+  padding: 82px; 
+text-align: center;
 }
 
-footer svg{
-color: white;
-}
 
-.futer{
-    background-color: #333333;
-    padding: 82px;
-} 
 /* Cierra footer*/
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3);
+}

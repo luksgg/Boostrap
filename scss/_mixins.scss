@@ -37,7 +37,8 @@
     font-family: $family;
 }
 .Agrandar{
-    @include texto($textLg, $red, $mainFont)
+    @include texto($textLg, $red, $mainFont);
+    margin-top: 5%;
 }
 /* Cierra mixins*/
 
