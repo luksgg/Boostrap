@@ -2118,7 +2118,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: white;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -2134,7 +2134,7 @@ textarea.form-control-lg {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: #212529; }
+    color: #212529;}
   .btn-check:focus + .btn, .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); }
@@ -2774,7 +2774,7 @@ textarea.form-control-lg {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1rem;
+  padding: none;
   clear: both;
   font-weight: 400;
   color: #212529;
@@ -7859,7 +7859,6 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     margin-right: 60px; }
     nav ul li a {
       padding: 16px;
@@ -7904,9 +7903,13 @@ section {
   transform: scaleX(-1); }
 
 .boton {
-  background-color: rgba(228, 140, 154, 0.993);
+  background-color: #CE1F3B;
   margin-top: 2%;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  border: none;
+  letter-spacing: 2px;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .margi {
   margin-top: 10%; }
