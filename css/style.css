@@ -19,11 +19,12 @@
 /* Cierra Extends*/
 /* Mixins*/
 .Agrandar {
-  font-size: 3.1rem;
+  font-size: 2.5rem;
   color: #f10c0c;
   font-family: "Poppins", sans-serif;
   margin-top: 5%; }
 
+ 
 /* Cierra mixins*/
 /* Maps*/
 /* Cierra Maps*/
@@ -77,6 +78,8 @@ section {
   background-color: white; }
   section article p {
     color: black;
+    text-align: center;
+    font-size: 90%;
     margin-bottom: 10px;
     }
 
@@ -96,9 +99,9 @@ section {
   margin-bottom: 10%; }
 
 .caja1 {
-  padding-top: 10%;
+  padding-top: 7%;
   font-size: 1.4em;
-  margin-bottom: 10%; }
+  margin-bottom: 7%; }
 
 .img-thumbnail:hover {
   transform: scaleX(-1); }
@@ -117,15 +120,17 @@ section {
 /* Cierra section*/
 /* Ubicacion*/
 .retocar {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: black;
   padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-bottom: 10%;
-  text-align: center;
-  background-color: white; }
-
+  text-align: center;}
 .mapa {
-  background-color: white; }
+  padding-right: 5%;
+  padding-left: 5%;
+}
 
 /* Cierra Ubicacion*/
 /* footer*/
@@ -144,12 +149,10 @@ footer svg {
   color: white; 
   font-size: 1.2em;
 }
+
+
 /* Cierra footer*/
 
-.two{
-  position: relative;    
-  display: inline-block;
-}
 
 .nombre{
   position: absolute;
@@ -172,8 +175,9 @@ footer svg {
 #copyright{
   background-color: #494949;
     color: #fff;
+    font-size: 15px;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .padd{
@@ -182,7 +186,8 @@ footer svg {
 
 .text1{
   color: grey;
-  font-size: 140%;
+  text-align: center;
+  font-size: 90%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -202,4 +207,208 @@ footer svg {
 
 .padd2{
   padding: 0;
+}
+
+.padd3{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.row{
+  --bs-gutter-x: 0rem;
+}
+.color1{
+  color: #CE1F3B;
+  font-size: 15px;
+}
+.fontsi{
+  font-size: 1.4em;
+}
+
+.fontsi2{
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.651);
+}
+
+
+.padd4{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.padd5{
+  padding-left: 30px;
+}
+.ContacM{
+  margin-bottom: 8px;
+}
+
+.futerM{
+align-items: center !important;
+}
+
+.agrandar2{
+  font-size: 2.5rem;
+  color: #f10c0c;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px; 
+margin-bottom: 20px;}
+
+.borde{
+  border: none;
+}
+.surayado
+  a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+footer a:hover{
+color: #CE1F3B;
+}
+
+footer svg:hover{
+  color: #CE1F3B;
+}
+
+.space{
+padding-top: 10px;
+}
+.fuuter{
+  text-align: center;
+}
+
+
+.tu{
+  position: relative;
+}
+
+.text30 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.vos {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+background-color: #ce1f3c85 ;
+}
+
+.tu:hover .vos{
+  opacity: 1;
+}
+
+
+.carousel-caption{
+  color: black;
+  bottom: 50%;
+  top: 50%;
+}
+
+/* Responsive  */
+@media (max-width: 420px) {
+  .breakpoint  {
+  height: 70%;
+  }
+}
+
+@media (max-width: 760px) {
+  .breakpoint  {
+    height: auto;
+  }
+  }
+
+  @media (min-width: 500px) {
+    .carousel-caption {
+    top: 40%;
+    bottom: 30%;
+    align-items: center;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+    top: 20%;
+    bottom: 30%;
+    align-items: center;
+    }
+  }
+
+  @media (max-width: 776px) {
+    .carousel-caption {
+    top: 20%;
+    bottom: 30%;
+    align-items: center;
+    }
+  }
+
+
+  @media (max-width: 1024px) {
+    .breakpoint  {
+      height: auto;
+    }
+    }
+
+    @media (max-width: 344px) {
+      .centrate {
+      text-align: center !important;
+      padding-left: 0;
+      padding-right: 0;
+      }
+    }
+
+    @media (min-width: 344px) {
+      .fuuter {
+      text-align: start;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .fuuter {
+      text-align: center;
+      }
+    }
+
+    
+@media (max-width: 444px) {
+  .fontsi2 {
+  font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .titulo{
+  font-size: 1.5em;
+}
+}
+@media (min-width: 500px) {
+  .titulo{
+  font-size: 3em;
+  }
+  }
+@media (min-width: 1000px) {
+  .titulo{
+  font-size: 5em;
+}
+}
+/* Termina Responsive */
+
+.titulo{
+  color: white;
+  text-shadow: 4px 5px rgba(0, 0, 0, 0.651);
 }
