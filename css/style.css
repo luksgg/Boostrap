@@ -41,6 +41,27 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
 p {
   font-family: "Poppins", sans-serif; }
 
+  .padd{
+    padding: 40px;
+  }
+  
+  .padd2{
+    padding: 0;
+  }
+  
+  .padd3{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .padd4{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .padd5{
+    padding-left: 30px;
+  }
 /* Cierra general*/
 /* Nav */
 nav {
@@ -72,7 +93,39 @@ nav {
 .dropdown-menu{
   background-color:  #CE1F3B;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: white;
+}
+
+.dropdown-item{
+  color: white;
+}
 /* cierra nav*/
+
+/*Carrusel */
+.carousel-caption{
+  color: black;
+  bottom: 50%;
+  top: 50%;
+}
+
+.titulo{
+  color: white;
+  text-shadow: 4px 5px rgba(0, 0, 0, 0.651);
+}
+
+.fontsi2{
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.651);
+}
+
+/*Carrusel */
+
 /* section*/
 section {
   background-color: white; }
@@ -117,48 +170,12 @@ section {
 .margi {
   margin-top: 10%; }
 
-/* Cierra section*/
-/* Ubicacion*/
-.retocar {
-  font-size: 1.2em;
-  color: black;
-  padding-top: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 10%;
-  text-align: center;}
-.mapa {
-  padding-right: 5%;
-  padding-left: 5%;
+.text1{
+  color: grey;
+  text-align: center;
+  font-size: 90%;
 }
 
-/* Cierra Ubicacion*/
-/* footer*/
-footer h1, footer .h1 {
-  color: white;
-  width: auto;
-  height: auto;
-  padding-bottom: 20px; }
-
-
-footer svg {
-  color: white; }
-
-.futer {
-  background-color: #333333;
-  color: white; 
-  font-size: 1.2em;
-}
-
-
-/* Cierra footer*/
-
-
-.nombre{
-  position: absolute;
-  bottom: 0;
-  right: 1em;
-}
 .btn{
   background-color: #CE1F3B;
   font-family: "Poppins", sans-serif;
@@ -172,112 +189,13 @@ footer svg {
   background-color: grey;
 }
 
-#copyright{
-  background-color: #494949;
-    color: #fff;
-    font-size: 15px;
-    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
-    padding: 20px 0;
-}
-
-.padd{
-  padding: 40px;
-}
-
-.text1{
-  color: grey;
-  text-align: center;
-  font-size: 90%;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-  color: white;
-}
-
-.dropdown-item{
-  color: white;
-}
-
 .py-1{
   padding-top: 0 !important;
-}
-
-.padd2{
-  padding: 0;
-}
-
-.padd3{
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .row{
   --bs-gutter-x: 0rem;
 }
-.color1{
-  color: #CE1F3B;
-  font-size: 15px;
-}
-.fontsi{
-  font-size: 1.4em;
-}
-
-.fontsi2{
-  font-size: 1.5em;
-  color: white;
-  text-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.651);
-}
-
-
-.padd4{
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-.padd5{
-  padding-left: 30px;
-}
-.ContacM{
-  margin-bottom: 8px;
-}
-
-.futerM{
-align-items: center !important;
-}
-
-.agrandar2{
-  font-size: 2.5rem;
-  color: #f10c0c;
-  font-family: "Poppins", sans-serif;
-  margin-top: 20px; 
-margin-bottom: 20px;}
-
-.borde{
-  border: none;
-}
-.surayado
-  a:link, a:visited, a:active {
-    text-decoration:none;
-    color: white;
-}
-footer a:hover{
-color: #CE1F3B;
-}
-
-footer svg:hover{
-  color: #CE1F3B;
-}
-
-.space{
-padding-top: 10px;
-}
-.fuuter{
-  text-align: center;
-}
-
 
 .tu{
   position: relative;
@@ -313,12 +231,93 @@ background-color: #ce1f3c85 ;
   opacity: 1;
 }
 
-
-.carousel-caption{
-  color: black;
-  bottom: 50%;
-  top: 50%;
+.fontsi{
+  font-size: 1.4em;
 }
+.color1{
+  color: #CE1F3B;
+  font-size: 15px;
+}
+
+.agrandar2{
+  font-size: 2.5rem;
+  color: #f10c0c;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px; 
+margin-bottom: 20px;}
+
+/* Cierra section*/
+/* Contacto-Ubicacion*/
+.ContacM{
+  margin-bottom: 8px;
+}
+
+.borde{
+  border: none;
+}
+
+.retocar {
+  font-size: 1.2em;
+  color: black;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  text-align: center;}
+.mapa {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+/* Cierra contacto-Ubicacion*/
+/* footer*/
+footer h1, footer .h1 {
+  color: white;
+  width: auto;
+  height: auto;
+  padding-bottom: 20px; }
+
+
+footer svg {
+  color: white; }
+
+.futer {
+  background-color: #333333;
+  color: white; 
+  font-size: 1.2em;
+}
+
+footer a:hover{
+  color: #CE1F3B;
+  }
+  
+  footer svg:hover{
+    color: #CE1F3B;
+  }
+
+  .fuuter{
+    text-align: center;
+  }
+
+  .surayado
+  a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+.space{
+padding-top: 10px;
+}
+
+  #copyright{
+    background-color: #494949;
+      color: #fff;
+      font-size: 15px;
+      text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+      padding: 20px 0;
+  }
+  
+/* Cierra footer*/
 
 /* Responsive  */
 @media (max-width: 420px) {
@@ -407,8 +406,3 @@ background-color: #ce1f3c85 ;
 }
 }
 /* Termina Responsive */
-
-.titulo{
-  color: white;
-  text-shadow: 4px 5px rgba(0, 0, 0, 0.651);
-}
